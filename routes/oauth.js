@@ -15,6 +15,7 @@ router.post('/', function(req, res, next) {
 
   	if(err)
   	{
+      console.log(err)
   		res.send("Some Error Occurred, please try again. ERR_CODE 5001");
   		return;
   	}
