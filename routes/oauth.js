@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var db = require('../config_db');
+var variables = require('../../variables')
 
 /* GET home page. */
 router.post('/', function(req, res, next) {

@@ -4,6 +4,7 @@ var getResponseFromLink = require('./getResponseFromLinkVtopBeta');
 var cheerio = require('cheerio');
 var unirest = require('unirest');
 var db = require('../config_db');
+var variables = require('../../variables')
 var headers = {
       'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
       'Accept-Encoding': 'gzip, deflate, br',

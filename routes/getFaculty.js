@@ -3,6 +3,7 @@ var router = express.Router();
 var getResponseFromLink = require('./getResponseFromLink');
 var cheerio = require('cheerio');
 var db = require('../config_db');
+var variables = require('../../variables')
 
 router.post('/', function (req, res, next) {
 
