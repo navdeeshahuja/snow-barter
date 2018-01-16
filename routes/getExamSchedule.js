@@ -55,6 +55,9 @@ router.post('/', function (req, res, next) {
                 textArray[2] != "" &&
                 textArray[3] != "" &&
                 textArray[5] != "" &&
+                textArray[6] != "" &&
+                textArray[7] != "" &&
+                textArray[8] != "" &&
                 textArray[9] != "" &&
                 textArray[10] != "" )
             {
